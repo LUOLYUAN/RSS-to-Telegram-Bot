@@ -13,16 +13,16 @@ Path("config").mkdir(parents=True, exist_ok=True)
 
 # Docker env
 if os.environ.get('TOKEN'):
-    Token = os.environ['TOKEN']
-    chatid = os.environ['CHATID']
+    Token = os.environ['1875956721:AAE-M5E8wZ8fiBKQLKTI17N0xsbZhRGuZsI']
+    chatid = os.environ['@Rsssubscibe']
     delay = int(os.environ['DELAY'])
 else:
     Token = "1875956721:AAE-M5E8wZ8fiBKQLKTI17N0xsbZhRGuZsI"
     chatid = "X"
     delay = 120
 
-if os.environ.get('MANAGER') and os.environ['MANAGER'] != 'X':
-    manager = os.environ['MANAGER']
+if os.environ.get('MANAGER') and os.environ['1674254192'] != 'X':
+    manager = os.environ['1674254192']
 else:
     manager = chatid
 
