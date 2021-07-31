@@ -26,8 +26,8 @@ if os.environ.get('MANAGER') and os.environ['1674254192'] != 'X':
 else:
     manager = chatid
 
-if os.environ.get('T_PROXY') and os.environ['T_PROXY'] != 'X':
-    telegram_proxy = os.environ['T_PROXY']
+if os.environ.get('T_PROXY') and os.environ['socks5h://134.122.87.108/'] != 'X':
+    telegram_proxy = os.environ['socks5h://134.122.87.108/']
 else:
     telegram_proxy = ''
 
