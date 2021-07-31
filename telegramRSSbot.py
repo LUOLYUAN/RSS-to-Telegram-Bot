@@ -17,7 +17,7 @@ if os.environ.get('TOKEN'):
     chatid = os.environ['@Rsssubscibe']
     delay = int(os.environ['DELAY'])
 else:
-    Token = "1875956721:AAE-M5E8wZ8fiBKQLKTI17N0xsbZhRGuZsI"
+    Token = "X"
     chatid = "X"
     delay = 120
 
